@@ -22,7 +22,7 @@ public class RoomDetailGenerator {
 			System.out.println("Perimiter: " + perimeter);
 		
 			System.out.println("Would you like details for a different room? (y/n)");
-			keepRunning = scnr.nextLine().toLowerCase().startsWith("y");
+			keepRunning = scnr.next().toLowerCase().startsWith("y");
 			
 			}
 		}
